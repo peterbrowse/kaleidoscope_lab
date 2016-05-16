@@ -1,0 +1,28 @@
+$first-color: #464646;
+$second-color: #8d8d8d;
+$third-color: #e5e5e5;
+$forth-color: #ffffff;
+
+$outter-spacing: 20px;
+
+@import 'reset';
+
+html, body {
+	background-color: $forth-color;
+}
+
+.content {
+	background-color: $third-color;
+	position: absolute;
+	bottom: 0;
+	top: 0;
+	left: 0;
+	right: 0;
+	margin: $outter-spacing;
+}
+
+.content-inner {
+	padding: $outter-spacing;
+	margin-bottom: $outter-spacing - ($outter-spacing * 2);
+	overflow: hidden;
+}

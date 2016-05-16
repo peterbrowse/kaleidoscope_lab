@@ -1,0 +1,36 @@
+{
+  "name": "node-template",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+	"start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:peterbrowse/blank_node_env.git"
+  },
+  "author": "Peter Browse",
+  "license": "MIT",
+  "engines": {
+    "node": "4.1.1"
+  },
+  "config": {
+    "port": "8080"
+  },
+  "bugs": {
+    "url": ""
+  },
+  "homepage": "",
+  "dependencies": {
+	"express": "4.x",
+	"node-sass": "3.5.x",
+	"node-sass-middleware": "0.9.x",
+	"pug": "2.0.0-alpha6",
+	"errorhandler": "1.4.x",
+	"morgan": "1.7.x"
+  },
+  "domains": [
+    "	"
+  ]
+}
