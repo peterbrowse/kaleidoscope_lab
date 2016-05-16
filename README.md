@@ -1,3 +1,3 @@
-# Blank Node ENV [![Build Status](https://travis-ci.org/winton/node-template.svg?branch=master)](https://travis-ci.org/winton/node-template)
+# Kaleidoscope Lab [![Build Status](https://travis-ci.org/winton/node-template.svg?branch=master)](https://travis-ci.org/winton/node-template)
 
-A blank canvas
+A project for work that allows the kiddies to upload their own drawings into a project kaleidoscope.
