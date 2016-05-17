@@ -28,9 +28,11 @@
 	"node-sass-middleware": "0.9.x",
 	"pug": "2.0.0-alpha6",
 	"errorhandler": "1.4.x",
-	"morgan": "1.7.x"
+	"morgan": "1.7.x",
+	"dotenv": "2.x.x",
+	"aws-sdk": "*"
   },
   "domains": [
-    "	"
+    ""
   ]
 }

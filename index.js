@@ -3,9 +3,15 @@ var express 		= require('express')
 ,	sass			= require('node-sass')
 ,   sassMiddleware	= require('node-sass-middleware')
 ,	errorhandler	= require('errorhandler')
-,	morgan 			= require('morgan');
+,	morgan 			= require('morgan')
+,   aws				= require('aws-sdk')
+,   dotenv			= require('dotenv').config();
 
 var app = express();
+
+var	AWS_ACCESS_KEY 	= process.env.AWS_ACCESS_KEY,
+	AWS_SECRET_KEY 	= process.env.AWS_SECRET_KEY,
+	S3_BUCKET 		= process.env.S3_BUCKET;
 
 if ('development' == app.get('env')) {
 	app.set('views', __dirname + '/views');
